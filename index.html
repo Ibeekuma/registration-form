@@ -11,6 +11,50 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i" rel="stylesheet">
 </head>
 <body>
+  <form>
+    <h1>Want to go to Mars?</h1>
+    <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
+    <fieldset>
+      <legend>Personal details</legend>
+      <div>
+        <div>
+          <label for="name">Name</label>
+          <input id="name">
+        </div>
+        <div>
+          <label for="number">Age</label>
+          <input id="number">
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input id="email" type="email">
+        </div>
+        <div>
+          <label for="subject">Physical fitness</label>
+          <select id="subject">
+            <option>Super-human</option>
+            <option>Fit as a fiddle</option>
+            <option>Not terribly strong</option>
+            <option>A little couch-potato-y</option>
+          </select>
+        </div>
+        <div>
+          <label for="details">Address</label>
+          <textarea id="details"></textarea>
+        </div>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Mission statement</legend>
+      <div>
+        <label for="text">Why do you want to go to Mars?</label>
+        <textarea id="text"></textarea>
+      </div>
+    </fieldset>
+    <div>
+      <button type="submit">Register for the trip!</button>
+    </div>
+    <input type="hidden" value="Request to join the mission">
 
 </body>
 </html>
