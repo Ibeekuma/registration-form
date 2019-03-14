@@ -15,7 +15,7 @@ input, select, textarea, text {
 }
 
 legend {
-  padding-right: 1rem;
+  padding: 0;
 }
 
 @media only screen and (min-width: 60em) {
